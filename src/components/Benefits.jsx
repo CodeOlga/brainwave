@@ -26,7 +26,7 @@ const Benefits = () => {
                 key={id}
               >
                 <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                  <h3 className="h5 mb-5">{title}</h3>
+                  <h5 className="h5 mb-5">{title}</h5>
                   <p className="body-2 mb-6 text-n-3">{text}</p>
                   <div className="flex items-center mt-auto">
                     <img src={iconUrl} width={48} height={48} alt={title} />
@@ -48,8 +48,8 @@ const Benefits = () => {
                     {imageUrl && (
                       <img
                         src={imageUrl}
-                        width={380}
-                        height={362}
+                        width={384}
+                        height={366}
                         alt={title}
                         className="w-full h-full object-cover"
                       />
