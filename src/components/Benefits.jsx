@@ -20,8 +20,6 @@ const Benefits = () => {
             ({ id, backgroundUrl, title, iconUrl, text, imageUrl, light }) => (
               <div
                 className="z-3 block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
-                // className="block relative p-0.5 bg-no-repeat bg-contain md:max-w-full"
-                // className="block relative p-0.5 bg-no-repeat bg-cover md:max-w-full"
                 style={{
                   backgroundImage: `url(${backgroundUrl})`,
                 }}
