@@ -246,7 +246,10 @@ export const benefits = [
     id: "0",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "/src/assets/benefits/card-1.svg",
+    // backgroundUrl: "/src/assets/benefits/card-1.svg",
+    backgroundUrl:
+      "/Users/olgakrv/Desktop/brainwave/src/assets/benefits/card-1.svg",
+
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -254,7 +257,7 @@ export const benefits = [
     id: "1",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "/src/assets/benefits/card-2.svg",
+    backgroundUrl: "./assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
