@@ -10,6 +10,7 @@ import {
 import Heading from "./Heading";
 import Section from "./Section";
 import Generating from "./Generating";
+import { ScrollParallax } from "react-just-parallax";
 
 const Services = () => {
   return (
@@ -49,7 +50,10 @@ const Services = () => {
                 ))}
               </ul>
             </div>
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
+
+            <ScrollParallax isAbsolutelyPositioned>
+              <Generating className="absolute left-4 right-4 bottom-6 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-24 lg:-translate-x-1/2" />
+            </ScrollParallax>
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
